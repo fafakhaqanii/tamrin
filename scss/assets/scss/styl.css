@@ -1,0 +1,49 @@
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.products__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.products__item > svg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 5px;
+}
+.products__item p {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.products__item:hover {
+  transform: scale(1.1);
+}
+.products__item:hover p {
+  color: #fcb900;
+}
+.products__item:hover svg {
+  border: 2px solid #fcb900;
+}
+
+.carousel-indicators li {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  background-color: #fcb900;
+}/*# sourceMappingURL=styl.css.map */

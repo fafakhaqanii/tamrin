@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.1/masonry.pkgd.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.js'></script>
+    <script src='https://unpkg.com/popper.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+</head>
+<style>
+    body {
+        padding-top: 50px;
+    }
+
+    .starter-template {
+        padding: 40px 15px;
+    }
+
+    .card {
+        width: 300px !important;
+    }
+</style>
+
+<body>
+    <!-- This script got from frontendfreecode.com -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <main role="main" class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="starter-template d-flex">
+                            <ul class="nav nav-tabs d-flex flex-column" id="myTab" role="tablist">
+                                <li class="nav-item"><img src="assets/shadmehr.JPG"
+                                        alt="https://en.wikipedia.org/wiki/Shadmehr_Aghili" class="rounded-circle mb-3">
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-success active" id="home-tab" data-toggle="tab" href="#home"
+                                        role="tab" aria-controls="home" aria-selected="true">Biography</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-success" id="profile-tab" data-toggle="tab" href="#profile"
+                                        role="tab" aria-controls="profile" aria-selected="false">Albums</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-success" id="contact-tab" data-toggle="tab" href="#contact"
+                                        role="tab" aria-controls="contact" aria-selected="false">Music</a>
+                                </li>
+                            </ul>
+
+                            <!-- tab content starts here -->
+                            <div class="tab-content" id="myTabContent">
+
+                                <!-- content 1 -->
+                                <div class="tab-pane masonry-container fade show active m-5" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="car">
+                                        <div class="card-body">
+                                            <h3 class="text-danger">Shadmehr Aghili</h3>
+                                            <p class="card-text">Shadmehr Aghili (Persian: شادمهر عقیلی; born 27
+                                                January 1973)
+                                                is an Iranian pop singer, musician, composer, music arranger,
+                                                producer and
+                                                songwriter,[1][2][3] and formerly an actor. He is credited as a
+                                                revitalizer of
+                                                music culture post-revolution in Iran.</p>
+                                            <p class="card-text">
+                                                Aghili was born in Tehran, Iran. He started early in music and
+                                                studied piano,
+                                                guitar and violin, graduating from the Tehran Conservatory of
+                                                Music.[citation
+                                                needed] and working at the IRIB, the official broadcasting system of
+                                                Iran.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- content 2 -->
+                                <div class="tab-pane fade masonry-container m-5" id="profile" role="tabpanel"
+                                    aria-labelledby="profile-tab">
+                                    <h3 class="text-danger">Albums</h3>
+                                    <div class="card">
+                                        <div class="card-body bg-dark">
+                                            <ul class="list-unstyled text-white fw-bolder fs-1">
+                                                <li>adam forosh </li>
+                                                <li> pare parvaz</li>
+                                                <li> tajrobe kon</li>
+                                                <li>tarafdar</li>
+                                                <li>dehati</li>
+                                                <li>sabab</li>
+                                                <li>Adam o Hava</li>
+                                                <li>Mosafer</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- content 3 -->
+                                <div class="tab-pane fade masonry-container m-5" id="contact" role="tabpanel"
+                                    aria-labelledby="contact-tab">
+                                    <h3 class="text-danger">music</h3>
+
+                                    <div class="card-group">
+                                        <div class="col-12 col-xl-4">
+                                            <div class="card">
+                                                <img class="card-img-top" src="assets/bi ehsas.jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Bi ehsas</h5>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                                                        accusamus
+                                                        iusto modi
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-xl-4">
+                                            <div class="card">
+                                                <img class="card-img-top" src="assets/roze sard.jfif"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">roze sard</h5>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                                                        accusamus
+                                                        iusto modi
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-xl-4">
+                                            <div class="card">
+                                                <img class="card-img-top" src="assets/tamasha.jfif"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Tamasha</h5>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                                                        accusamus
+                                                        iusto modi
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

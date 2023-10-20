@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body dir="rtl">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light" style="direction: rtl;">
+        <div class="container">
+            <a class="navbar-brand text-warning fw-bold" href="#"> ایرانسل</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">فروشگاه <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">محصولات و خدمات</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">جشنواره ها</a>
+                        <div class="dropdown-menu bg-warning" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">جشنواره‌ها‌ی ایرانسل</a>
+                            <a class="dropdown-item" href="#"> فهرست برندگان</a>
+                            <a class="dropdown-item" href="#"> یکسال مهمان ما باشید </a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2 mx-2 border-2 border-warning" type="text" placeholder="جست و جو">
+                    <button class="btn border-2 border-warning my-2 my-sm-0" type="submit">ورود</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="forth slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="image/Web-Banner-1584x614-CTA-FA-1.jpg" class="w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/Web-Banner-1584x614-CTA-FA-2 (1).jpg" class="w-100 d-block"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/Web-Banner-1584x614-CTA-FA-2.jpg" class="w-100 d-block" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/Web-Banner-1584x614-CTA-FA.jpg" class="w-100 d-block" alt="forth slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+                <div class="products">
+                    <div class="products__item"
+                        style="display: flex;align-items: center;justify-content: space-evenly;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+                            <rect x="13.5" y="7.5" width="20.25" height="32.25" rx="4.5" stroke="black"
+                                stroke-width="2.25" stroke-linecap="round" />
+                            <path d="M20.25 35.25H27" stroke="black" stroke-width="2.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M26.1568 18.75C28.0085 18.75 29.25 20.5661 29.25 22.2574C29.25 25.6894 24.0939 28.5 24 28.5C23.9061 28.5 18.75 25.6894 18.75 22.2574C18.75 20.5661 19.9927 18.75 21.8432 18.75C22.9018 18.75 23.5973 19.3012 24 19.7926C24.4015 19.3012 25.0969 18.75 26.1568 18.75Z"
+                                stroke="#FFCC00" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <p>ایرانسل من</p>
+                    </div>
+                    <div class="products__item"
+                        style="display: flex;align-items: center;justify-content: space-evenly;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8.25" y="7.5" width="32.25" height="32.25" rx="7.5" stroke="black"
+                                stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x="8.25" y="13.5" width="32.25" height="26.25" rx="7.5" stroke="black"
+                                stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x="8.25" y="19.5" width="32.25" height="20.25" rx="7.5" stroke="black"
+                                stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24.75 22.5C20.75 26.2368 20.75 32.2632 24.75 36C28.75 32.2645 28.75 26.2368 24.75 22.5Z"
+                                stroke="#FFCC00" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24.75 22.5C21.0135 22.5 18 25.5135 18 29.25C18 32.9865 21.0135 36 24.75 36C28.4865 36 31.5 32.9865 31.5 29.25C31.5 25.5135 28.4865 22.5 24.75 22.5V22.5Z"
+                                stroke="#FFCC00" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18 29.25H31.5" stroke="#FFCC00" stroke-width="2.25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <p>ایرانسل من</p>
+                    </div>
+                    <div class="products__item"
+                        style="display: flex;align-items: center;justify-content: space-evenly;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+                            <path
+                                d="M27.8906 28.875H30.375C31.7212 28.875 32.8125 27.765 32.8125 26.3958V13.7868C32.8125 13.1293 32.5554 12.499 32.0983 12.034L27.4329 7.2889C26.9759 6.82393 26.356 6.56264 25.7096 6.5625H18.1875C16.8413 6.5625 15.75 7.67246 15.75 9.04167V10.1719"
+                                stroke="black" stroke-width="1.96875" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24.8796 17.9403L20.2142 13.1951V13.1951C19.7572 12.7302 19.1373 12.4689 18.4909 12.4688H10.9688V12.4688C9.62256 12.4688 8.53125 13.5787 8.53125 14.9479V32.3021V32.3021C8.53125 33.6713 9.62256 34.7813 10.9688 34.7813H23.1562V34.7813C24.5024 34.7813 25.5938 33.6713 25.5938 32.3021V19.693V19.6936C25.5938 19.0361 25.337 18.4056 24.8799 17.9406L24.8796 17.9403Z"
+                                stroke="black" stroke-width="1.96875" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21.022 24.9375H13.103C12.7527 24.9375 12.4688 25.1983 12.4688 25.52V30.9175C12.4688 31.2392 12.7527 31.5 13.103 31.5H21.022C21.3723 31.5 21.6562 31.2392 21.6562 30.9175V25.52C21.6562 25.1983 21.3723 24.9375 21.022 24.9375Z"
+                                stroke="#FFCC00" stroke-width="1.96875" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M13.125 28.2188H15.75" stroke="#FFCC00" stroke-width="1.96875"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M15.75 30.8438V28.2188" stroke="#FFCC00" stroke-width="1.96875"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.375 24.9375V30.8438" stroke="#FFCC00" stroke-width="1.96875"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <p>ایرانسل من</p>
+                    </div>
+                    <div class="products__item"
+                        style="display: flex;align-items: center;justify-content: space-evenly;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M40.5 25.98C40.5 29.4302 38.6549 32.4887 35.809 34.4171L33.7137 38.8616C33.229 39.871 31.8217 40.0669 31.0867 39.2082L28.7725 36.5263C24.9884 36.5263 21.6109 34.9143 19.5 32.3982L20.9542 30.7108C27.4278 30.7108 33 26.081 33 20.2504C33 18.6684 33.3853 17.0913 32.6817 15.7504C37.7949 16.8803 40.5 21.0383 40.5 25.98Z"
+                                stroke="black" stroke-width="2.25" />
+                            <path
+                                d="M33 19.2133C33 25.689 27.456 30.9265 20.625 30.9265L19.0905 32.8006L18.183 33.9051C17.4075 34.8422 15.9225 34.6413 15.411 33.5202L13.2 28.5838C10.197 26.442 8.25 23.0452 8.25 19.2133C8.25 12.7375 13.794 7.5 20.625 7.5C25.608 7.5 29.9145 10.2945 31.845 14.3104C32.5875 15.7997 33 17.4563 33 19.2133Z"
+                                stroke="black" stroke-width="2.25" />
+                            <path d="M16.5 16.5H24.75" stroke="#FFCC00" stroke-width="2.25" stroke-linecap="round" />
+                            <path d="M16.5 23.25H24.75" stroke="#FFCC00" stroke-width="2.25" stroke-linecap="round" />
+                        </svg>
+                        <p>ایرانسل من</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
